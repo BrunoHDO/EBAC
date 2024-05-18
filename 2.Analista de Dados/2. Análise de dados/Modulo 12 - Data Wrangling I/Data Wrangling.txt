@@ -1,0 +1,37 @@
+DataWrangling - Manipulação de dados
+
+DataFrame Pandas as pd
+	var_df.columns
+	var_df.dtypes
+	var_df.index
+	var_df.shape
+	var_df.head()
+	var_df.tall()
+	var_df.info
+	var_df.[['column1', 'column2']]describ().T 
+
+***Seleção e Filtros***
+	serie = coluna
+		serie = dataframe['nome_da_coluna']
+	DataFrame
+		novo_dataframe = dataframe[['nome_da_coluna1' , 'nome_da_coluna2', ..]]
+
+Indexação simples
+	df/serie.loc[n]
+	df/serie.loc[n:m]
+	df.loc[n, ['coluna1' , 'coluna2']]
+	df.loc[n:m, ['coluna1' , 'coluna2']]
+Filtro
+	lambda
+	df.query
+	loc[], iloc[], querry(), isin(), between(), head(), tail()...
+
+Inserção
+	append(), insert(), remove(), pop(), drop(), dropna()...
+	loc[], iloc[], at[], iat[]...
+Deleção
+	Remoção de elementos c/ filtro funcional 
+	loc[], iloc[]
+Atualização
+	indexação simples / slicing / filtro funcional
+	loc[], iloc[] 
